@@ -1,0 +1,242 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+:root {
+   --Grenad : #B11313; 
+   --Jaune : #F1C530; 
+   --Bleu : #114C92; 
+   --Noir : #000000; 
+   --Blanc : #FFF; 
+}
+/* Barre menu */
+#navigation {
+    background-color: var(--Grenad);
+}
+ div.container {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 3px;
+    height: 4em;
+ }
+ div.img-nav {
+     display: flex;
+     justify-content: space-around;
+     text-align: center;
+     align-items: center;
+     height: 4em;
+     padding-left: 50px;
+ }
+ div.menu {
+     height: 4em;
+     padding-right: 200px;
+     padding-top: 4em;
+     padding-bottom: 0em;
+ }
+ div.menu ul {
+     display: flex;
+     list-style-type: none;
+     justify-content: space-around;
+     padding-left: 20px;
+ }
+ div.menu li a {
+     text-decoration: none;
+     color: var(--Blanc);  
+ }
+
+ /* main */
+ section#Latoile {
+     background-color: var(--Jaune);
+     display: flex;
+     justify-content: space-between;
+ }
+ section#Latoile div.titre {
+     color: #FFF;
+     margin-top: 200px;
+     margin-left: 13em;
+ }
+ div.spd-img{
+     transform: scaleX(-1);
+ }
+ section#formulaire {
+     background-color: var(--Grenad);
+     height: auto;
+     padding: 50px ;
+     justify-content: center;
+     align-items: center;
+  }
+  div.texte {
+      padding-bottom: 30px;
+      color: var(--Blanc);
+      margin-left: 10em;
+  }
+  
+  div.texte h2 {
+      padding-bottom: 5px;
+  }
+  div.self-spid {
+      margin-left: 10em;
+  } 
+  
+  div.img-form {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+  }
+  div.form {
+      margin-right: 10em;
+  }
+  div.form input {
+      margin-top: 10px;
+      padding: 5px 100px 5px 10px;
+      border-radius: 10px;
+      border: none;
+      background-color: #B11313;
+      border: 1px solid white;
+      color: #FFF;
+      outline: none;
+  }
+  div.form textarea {
+      margin-top: 10px;
+      padding: 5px 106px 5px 10px;
+      resize: none;
+      height: 100px;
+      border-radius: 10px;
+      border: none;
+      background-color: #B11313;
+      border: 1px solid white;
+      color: #FFF;
+      outline: #FFF;
+  }
+  div.form button {
+      margin-top: 30px;
+      padding: 10px 40px;
+      align-items: center;
+      text-align: center;
+      margin-left: 60px;
+      border-radius: 10px;
+      border: none;
+      background-color: #B11313;
+      border: 1px solid white;
+      color: #FFF;
+  }
+
+ section#article {
+     background-color: var(--Bleu);
+     color: #FFF;
+ }
+ section#article h3 {
+     margin-left: 9em;
+     padding-top: 50px;
+     padding-bottom: 20px; 
+ }
+ section#article div.titre {
+     margin-left: 11em;
+     padding-top: 50px;
+     padding-bottom: 40px;
+ }
+ div.description {
+     display: flex;
+     flex-wrap: wrap;
+     align-items: center;
+     justify-content: space-around;
+     padding: 20px;
+ }
+ .partie-1, .partie-2, .partie-3, .partie-4, .partie-5{
+     inline-size: 500px;
+     margin-top: 15px;
+     margin-left: 20px;
+ }
+ div.description-1 {
+      align-self: flex-start;
+      display: flex;
+      justify-content: space-around;
+ }
+ div.description-2 {
+      align-self: flex-start;
+      display: flex;
+      justify-content: space-around;
+ }
+ div.lien a{
+     border: 1px solid white;
+     border-radius: 10px;
+     margin: 40px;
+     text-align: center;
+     align-items: center;
+     color: #FFF;
+     padding: 10px 50px;
+     text-decoration: none;
+ }
+
+ div.lien{
+     justify-content: space-around;
+     justify-items: center;
+     text-align: center;
+     align-items: center;
+     padding-bottom: 80px;
+     padding-top: 20px;
+ }
+ /* pieds du pages */
+ footer {
+     background-color: var(--Noir);
+ }
+ section.parametre {
+     display: flex;
+     align-items: center;
+     text-align: center;
+     justify-content: center;
+     padding: 20px;
+
+ }
+ div.groupe {
+     padding: 20px;  
+ }
+ div.groupe a{
+     padding: 40px;
+     color: #FFF;
+     text-decoration: none;
+ }
+ div.groupe select {
+     padding: 5px 100px 5px 10px;
+     background-color: var(--Grenad);
+     border: none;
+     color: #FFF;
+     border-radius: 10px;
+ }
+ section.contact img{
+     border-radius: 100%;
+     padding: 10px;
+     background-color: var(--Grenad);
+     margin: 5px;  
+ }
+ section.contact {
+     align-items: center;
+     text-align: center;
+     padding: 50px;
+ }
+ div.copy {
+     color: #FFF;
+     align-items: center;
+     text-align: center;
+     padding: 20px;
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

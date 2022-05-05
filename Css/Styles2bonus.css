@@ -1,0 +1,111 @@
+*{
+    padding: 0px;
+    margin: 0px
+}
+:root {
+   --Grenad : #B11313; 
+   --Jaune : #F1C530; 
+   --Bleu : #114C92; 
+   --Noir : #000000; 
+   --Blanc : #FFF; 
+}
+/* Barre menu */
+#navigation {
+    background-color: var(--Grenad);
+}
+ div.container {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 3px;
+    height: 4em;
+ }
+ div.img-nav {
+     display: flex;
+     justify-content: space-around;
+     text-align: center;
+     align-items: center;
+     height: 4em;
+     padding-left: 50px;
+ }
+ div.menu {
+     height: 4em;
+     padding-right: 200px;
+     padding-top: 4em;
+     padding-bottom: 0em;
+ }
+ div.menu ul {
+     display: flex;
+     list-style-type: none;
+     justify-content: space-around;
+     padding-left: 20px;
+ }
+ div.menu li a {
+     text-decoration: none;
+     color: var(--Blanc);  
+ }
+ /* Page */
+ main{
+     background-image: url(/Illustration/img35.png);
+     background-size: cover;
+     background-position: center;
+     height: 100vh;
+    
+ }
+ main h1, p {
+     color: #FFF;
+ }
+ main h1 {
+      padding-top: 80vh;
+      padding-left: 70vh;
+ }
+ main p {
+     padding-left: 70vh;
+ }
+
+
+ /* pieds du pages */
+ footer {
+     background-color: var(--Noir);
+ }
+ section.parametre {
+     display: flex;
+     align-items: center;
+     text-align: center;
+     justify-content: center;
+     padding: 20px;
+
+ }
+ div.groupe {
+     padding: 20px;  
+ }
+ div.groupe a{
+     padding: 40px;
+     color: #FFF;
+     text-decoration: none;
+ }
+ div.groupe select {
+     padding: 5px 100px 5px 10px;
+     background-color: var(--Grenad);
+     border: none;
+     color: #FFF;
+     border-radius: 10px;
+ }
+ section.contact img{
+     border-radius: 100%;
+     padding: 10px;
+     background-color: var(--Grenad);
+     margin: 5px;  
+ }
+ section.contact {
+     align-items: center;
+     text-align: center;
+     padding: 50px;
+ }
+ div.copy {
+     color: #FFF;
+     align-items: center;
+     text-align: center;
+     padding: 20px;
+ }

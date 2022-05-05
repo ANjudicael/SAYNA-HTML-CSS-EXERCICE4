@@ -1,0 +1,265 @@
+*{
+    padding: 0px;
+    margin: 0px
+}
+:root {
+   --Grenad : #B11313; 
+   --Jaune : #F1C530; 
+   --Bleu : #114C92; 
+   --Noir : #000000; 
+   --Blanc : #FFF; 
+}
+/* Barre menu */
+#navigation {
+    background-color: var(--Bleu);
+}
+ div.container {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 3px;
+    height: 4em;
+ }
+ div.img-nav {
+     display: flex;
+     justify-content: space-around;
+     text-align: center;
+     align-items: center;
+     height: 4em;
+     padding-left: 50px;
+ }
+ div.menu {
+     height: 4em;
+     padding-right: 200px;
+     padding-top: 4em;
+     padding-bottom: 0em;
+ }
+ div.menu ul {
+     display: flex;
+     list-style-type: none;
+     justify-content: space-around;
+     padding-left: 20px;
+ }
+ div.menu li a {
+     text-decoration: none;
+     color: var(--Blanc);  
+ }
+
+ 
+ /* main */
+ div.h1-p {
+     background-image: url(/Illustration/img19.png);
+     width: 90%;
+     height: 400px;
+     color: #FFF;  
+     background-size: cover;
+     padding-top: 10%;
+     padding-left: 10%;
+ }
+ div.valeurs-enveloppes {
+     background-color: var(--Bleu);
+     color: white;
+ }
+ div#vp {
+     padding: 50px;
+     margin-left: 4%;
+ }
+ div.resum {
+     display: flex;
+     justify-content: space-around;
+ }
+ div.resum p {
+     inline-size: 400px;
+     text-align: justify;
+     padding-bottom: 50px;
+ }
+ /* fondation solide */
+ div.fondations {
+     background-image: url(/Illustration/img20.png);
+     width: 90%;
+     height: 400px;
+     color: #FFF;  
+     background-size: cover;
+     padding-top: 10%;
+     padding-left: 10%;
+ }
+ /* texte blue */
+ section#pageblue {
+    background-color: var(--Bleu);
+    color: #FFF;
+    padding-bottom: 5%;
+ }
+ section#pageblue span {
+     font-weight: bold;
+     font-size: 16px;
+ }
+ /* page */
+ div.capacity {
+     display: flex;
+     justify-content: center;
+     inline-size: 90%;
+     padding: 50px 10px 50px 40px;
+ }
+ div.capacity p {
+     text-align: justify;
+ }
+ /* amis spiderman */
+ div.jamais {
+     margin-left: 7%;
+     padding-bottom: 2%;
+ }
+ div.ph-amis {
+     display: flex; 
+     justify-content: space-between;
+     padding-left: 7%;
+     padding-right: 7%;
+     padding-bottom: 5%;
+ }
+ div.ph {
+     display: flex;
+ }
+ div.img22 {
+     position:absolute; 
+     padding-top: 10%; 
+     padding-left: 18%;
+ }
+ div.amis {
+     inline-size: 400px; 
+     text-align: justify;
+ }
+ div.amis h1 {
+     padding-bottom: 5%;
+     text-align: center;
+ }
+ div.MJ {
+     display: flex;
+     justify-content: space-around;
+ }
+ div.gwen {
+     padding-bottom: 5%;
+     inline-size: 500px; 
+     text-align: justify;
+ }
+ div.gwen h1 {
+     font-size: 40px;
+     padding-bottom: 5%;
+ }
+ div.trioph {
+     padding-top: 4%;
+ }
+ div.typesfemmes {
+    display: flex;
+    justify-content: space-around;
+
+ }
+ div.img23 {
+     margin-right: 10%;
+ }
+ img.img25 {
+     margin-left: 25%;
+ }
+ /* avengers academy */
+ section#avengers {
+     display: flex;
+     color: #FFF;
+     height: 1068px;
+ }
+ div.gauche {
+     background-color: var(--Grenad);
+     height: 1068px;
+ }
+ div.gauche h1{
+     padding: 5% 17%;
+ }
+ div.two {
+     display: flex;
+     padding-left: 17%;
+ }
+ div.pic2desc {
+     text-align: justify;
+     margin-right: 5%;
+     margin-left: 5%;
+ }
+ div.pic4 {
+     padding-left: 17%;
+ }
+ div.pic4-1, .pic4-2 {
+     display: flex;
+     justify-content: space-between;
+     margin-right: 5%;
+ }
+ div.pic4-2 {
+     margin-top: 5%;
+ }
+ section#univers {
+     background-image: url(/Illustration/img33.png);
+     background-repeat: no-repeat;
+     background-size: cover;
+     height: 550px;
+     width: 100%;
+ }
+ div.spidey {
+     color: white;
+     inline-size: 400px;text-align: justify;
+     margin-left: 55%;
+     padding-top: 6%;
+     padding-bottom: 4%;
+     padding-left: 2%;
+     padding-right: 2%;
+     background-color: rgba(3, 90, 250, 0.445);
+ }
+div.spidey h1 {
+    text-align: justify;
+    font-size: 28px;
+}
+div.spidey h3 {
+    text-align: right;
+    padding-bottom: 3%;
+}
+
+
+ /* pieds du pages */
+ footer {
+     background-color: var(--Noir);
+ }
+ section.parametre {
+     display: flex;
+     align-items: center;
+     text-align: center;
+     justify-content: center;
+     padding: 20px;
+
+ }
+ div.groupe {
+     padding: 20px;  
+ }
+ div.groupe a{
+     padding: 40px;
+     color: #FFF;
+     text-decoration: none;
+ }
+ div.groupe select {
+     padding: 5px 100px 5px 10px;
+     background-color: var(--Bleu);
+     border: none;
+     color: #FFF;
+     border-radius: 10px;
+ }
+ section.contact img{
+     border-radius: 100%;
+     padding: 10px;
+     background-color: var(--Bleu);
+     margin: 5px;  
+ }
+ section.contact {
+     align-items: center;
+     text-align: center;
+     padding: 50px;
+ }
+ div.copy {
+     color: #FFF;
+     align-items: center;
+     text-align: center;
+     padding: 20px;
+ }

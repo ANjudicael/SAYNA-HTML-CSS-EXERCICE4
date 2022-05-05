@@ -1,0 +1,230 @@
+*{
+    padding: 0px;
+    margin: 0px
+}
+:root {
+   --Grenad : #B11313; 
+   --Jaune : #F1C530; 
+   --Bleu : #114C92; 
+   --Noir : #000000; 
+   --Blanc : #FFF; 
+}
+/* Barre menu */
+#navigation {
+    background-color: var(--Grenad);
+}
+ div.container {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 3px;
+    height: 4em;
+ }
+ div.img-nav {
+     display: flex;
+     justify-content: space-around;
+     text-align: center;
+     align-items: center;
+     height: 4em;
+     padding-left: 50px;
+ }
+ div.menu {
+     height: 4em;
+     padding-right: 200px;
+     padding-top: 4em;
+     padding-bottom: 0em;
+ }
+ div.menu ul {
+     display: flex;
+     list-style-type: none;
+     justify-content: space-around;
+     padding-left: 20px;
+ }
+ div.menu li a {
+     text-decoration: none;
+     color: var(--Blanc);  
+ }
+ /* corps du page */
+ div.sect1 {
+     background-image: url(/Illustration/img1.png);
+     width: 100%;
+     height: 850px;
+     color: #FFF;
+     background-repeat: no-repeat;  
+     background-size: cover;
+     background-position-x: 100%;
+ }
+ div.sectone {
+    padding-top: 25%;
+    padding-left: 10%;
+ }
+ div.sectone h1 {
+     padding: 0px 0px 50px;
+ }
+ div.sectone button {
+     padding: 20px 30px;
+     margin: 30px;
+     margin-left: 0px;
+     border-radius: 25px;
+     border: 1px solid white;
+     background-image: url(/Illustration/img1.png);
+     background-position: 20px;
+     
+ }
+ div.sectone button a{
+     color: #FFF;
+ }
+ div.sectone button a:hover {
+     color: var(--Grenad);
+     padding: 20px 30px;
+     border-radius: 25px;
+     background-color: #FFF;
+ }
+ div.titreh1-p {
+    padding-top: 10%;
+    padding-left: 10%;
+ }
+ div.titreh1-p p {
+     padding-top: 1%;
+ }
+ /* 3 spiderman */
+ div.triospider {
+    display: flex;
+    justify-content: space-around;
+    background-color: var(--Grenad);
+ }
+ div.triospider p {
+     padding-top: 10px;
+     text-align: justify;
+ }
+ div.spid-2002 p {
+     padding-bottom: 30px;   
+ }
+ div.spid-2012 p {
+     padding-bottom: 15px;   
+ }
+ div.spid-2002 {
+     padding: 20px 100px 50px 130px;
+ }
+ div.spid-2012 {
+    padding-top: 20px;
+ }
+ div.spid-2021 {
+     padding: 20px 100px 50px 130px;
+ }
+ div.triospider button {
+     margin-left: 15%;
+     padding: 15px 20px;
+     border-radius: 15px;
+     border: none;
+ }
+ div.triospider button a {
+     color: #B11313;
+     font-weight: bold;
+ }
+ /* bcg-blue */
+ section#bcg-blue {
+     background-color: var(--Bleu);
+ }
+ div.logo-formulaire {
+     display: flex;
+     justify-content: space-between;
+     text-align: center;
+     align-items: center;
+ }
+ div.logo {
+     padding-left: 0px;
+ }
+ div.formulaire {
+     padding-right: 20%;
+     color: #FFF;
+ }
+ /* input & button */
+ div.Rmp input {
+     padding: 5px 100px 5px 10px ;
+     margin: 5px;
+     border-radius: 30px;
+     border: none;
+ }
+ div.formulaire button {
+     margin-top: 10px;
+     padding: 10px 40px;
+     border-radius: 15px;
+     border: 1px solid white;
+     background-color: #114C92;
+ }
+ /* bcg-red */
+ section#bcg-red {
+     background-color: var(--Grenad);
+     color: #FFF;
+     display: flex;
+     justify-content: space-between;
+ }
+ div#gauche {
+     padding-left: 10%;
+     padding-top: 10%;
+ }
+ div#gauche button {
+     padding: 15px;
+     margin-left: 20%;
+     border-radius: 15px;
+     border: none;
+     background-color: #FFF;
+ }
+ div.rsg input {
+     padding: 5px 150px 5px 5px;
+     margin: 5px;
+     border: 1px solid white;
+     border-radius: 20px;
+     background-color: #B11313;
+ }
+
+ div#droite img {
+     margin-right: 0px;
+     padding: right 0px;
+ }
+ /* pieds du pages */
+ footer {
+     background-color: var(--Noir);
+ }
+ section.parametre {
+     display: flex;
+     align-items: center;
+     text-align: center;
+     justify-content: center;
+     padding: 20px;
+
+ }
+ div.groupe {
+     padding: 20px;  
+ }
+ div.groupe a{
+     padding: 40px;
+     color: #FFF;
+     text-decoration: none;
+ }
+ div.groupe select {
+     padding: 5px 100px 5px 10px;
+     background-color: var(--Grenad);
+     border: none;
+     color: #FFF;
+     border-radius: 10px;
+ }
+ section.contact img{
+     border-radius: 100%;
+     padding: 10px;
+     background-color: var(--Grenad);
+     margin: 5px;  
+ }
+ section.contact {
+     align-items: center;
+     text-align: center;
+     padding: 50px;
+ }
+ div.copy {
+     color: #FFF;
+     align-items: center;
+     text-align: center;
+     padding: 20px;
+ }
